@@ -1,0 +1,97 @@
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  color:black;
+  display:flex;
+  justify-content:center;
+  font-family: 'Alata', sans-serif;
+}
+input {
+	width: 90%;
+	height: 20px;
+	border: 1px solid #19E6A3;
+	font-family: 'Alata', sans-serif;
+}
+#Name {
+  text-align: center;
+  font-size: 40px;
+}
+#Nick {
+  text-align: center;
+  font-size: 40px;
+}
+#logConatainer {
+  width: 25vw;
+  float: left;
+  background-color: #ffffff;
+  padding:10px;
+  height:calc(100% - 20px);
+  color: rgb(126, 126, 126);
+  border-radius: 39px;
+}
+label{
+	margin-top: 20px;
+}
+
+#LogginPanel {
+  height: 500px;
+  margin-top: 100px;
+  border: 2px solid #19E6A3;
+  border-radius: 15px;
+}
+#context {
+	font-size: 35px;
+	color: #E6AD19;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+button{
+	border:none;
+	background-color:#19E6A3;
+	height:30px;
+	color:white;
+	width: 70px;
+}
+button:hover{
+    background-color: #E6AD19;
+}
+#Description{
+	padding: 20px;
+}
+#failLog{
+	display: none;
+	font-size: 36px;
+	position: fixed;
+	text-align: center;
+	padding: 17px;
+	margin-top: calc(50vh - 115px);
+	color: white;
+	background-color: red;
+}
+.Favourites {
+  width: 30px;
+}
+#btn-1{
+	background-color: red;
+}
+#btn-2{
+	background-color: yellow;
+}
+#btn-3{
+	background-color: green;
+}
+#btn-4{
+	background-color: blue;
+}
+#btn-5{
+	background-color: green;
+}
+#error-fail{
+	margin-bottom: 0px;
+}
+#OK-agree {
+	background-color: white;
+	color: grey;
+}

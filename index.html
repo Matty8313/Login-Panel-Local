@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Title of the document</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+ <script src="js.js"></script> 
+</head>
+
+<body >
+<div id="LogginPanel">
+		<div id="logConatainer">
+			<center>
+			<p id="context">Register</p></br>
+			<label id="lab" for="getName">Name:</label></br>
+			<input type="text" id="getName"></br></br>
+			<label id="lab" for="getNick">Nick:</label></br>
+			<input type="text" id="getNick"></br></br>
+			<label id="lab" for="getPassword">Password:</label></br>
+			<input type="password" id="getPassword"></br></br>
+			<label id="lab" >Favourite Color</label></br>
+			<button class="Favourites" id="btn-1" onclick="chooseColor()"></button>
+			<button class="Favourites" id="btn-2" onclick="chooseColor()"></button>
+			<button class="Favourites" id="btn-3" onclick="chooseColor()"></button>
+			<button class="Favourites" id="btn-4" onclick="chooseColor()"></button>
+			<button class="Favourites" id="btn-5" onclick="chooseColor()"></button></br></br>
+			<label id="lab" >Description:</label></br>
+			<input type="text" id="description"></br></br>
+			<button onclick="addDatabase()">Register</button>
+			</center>
+		</div>
+		<div id="logConatainer"><center>
+			<p id="context">Logg In</p></br>
+			<label id="lab" for="showName">Nick:</label></br>
+			<input type="text" id="showName"></br></br>
+			<label id="lab" for="PassLog">Password:</label></br>
+			<input type="password" id="PassLog"></br></br>
+			<button onclick="showMeName()">Log In</button>
+			</center>
+		</div>
+</div>
+<div id="Logged">
+	<div id="Name"></div>
+	<div id="Nick"></div>
+	<div id="Description"></div>
+</div>
+<div id="failLog">
+<p id="error-fail">Error:Loggin Failed!</p>
+<button id="OK-agree" onclick="closeFail()">Try again</button>
+</div>
+
+
+</body>
+
+</html>
